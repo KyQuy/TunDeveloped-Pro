@@ -1522,18 +1522,18 @@
         // ===== SCRIPT DATA =====
         const scriptData = {
             free: [
-                { name: 'NHẸ TÂM', code: 'alert("TUN");' },
+                { name: 'NHẸ TÂM', code: 'alert("ĐÃ ĐƯỢC TIÊM✅");' },
                 { name: 'MAXLOCK ', code: 'alert("TUN");' },
-                { name: 'AIMLOCK', code: 'alert("TUN");' },
+                { name: 'AIMLOCK', code: 'alert("ĐÃ ĐƯỢC TIÊM✅");' },
                 { name: 'CONFIG ẨN', code: 'alert("TUN");' },
-                { name: 'DATA PRO', code: 'alert("TUN");' }
+                { name: 'DATA PRO', code: 'alert("ĐÃ ĐƯỢC TIÊM✅");' }
             ],
             premium: [
-                { name: ' NHẸ TÂM PRO', code: 'alert("TUN");' },
-                { name: 'MAXLOCK PRO', code: 'alert("TUN");' },
-                { name: 'AIMLOCK PRO', code: 'alert("TUN");' },
-                { name: 'CONFIG PRO', code: 'alert("TUN");' },
-                { name: 'DATA PRO', code: 'alert("TUN");' }
+                { name: ' NHẸ TÂM PRO', code: 'alert("ĐÃ ĐƯỢC TIÊM✅");' },
+                { name: 'MAXLOCK PRO', code: 'alert("ĐÃ ĐƯỢC TIÊM✅");' },
+                { name: 'AIMLOCK PRO', code: 'alert("ĐÃ ĐƯỢC TIÊM✅");' },
+                { name: 'CONFIG PRO', code: 'alert("ĐÃ ĐƯỢC TIÊM✅");' },
+                { name: 'DATA PRO', code: 'alert("ĐÃ ĐƯỢC TIÊM✅");' }
             ]
         };
 
@@ -1587,7 +1587,7 @@
             preview.className = 'preview-box active valid';
             document.getElementById('logBox').classList.remove('active');
             document.getElementById('logBox').innerHTML = '';
-            alert(`✅ Đã nạp script "${script.name}" từ thư viện!`);
+            alert(`✅ Đã nạp Script "${script.name}" từ thư viện!`);
             if (document.getElementById('inject-screen').style.display !== 'block') {
                 openInjector(1);
             }
@@ -1719,7 +1719,7 @@
                             `;
                 } catch (err) {
                     addLog(`⚠️ Lỗi cú pháp: ${err.message}`, 'warn');
-                    addLog('✅ Áp dụng script (bỏ qua lỗi)', 'success');
+                    addLog('✅ Áp dụng Script (bỏ qua lỗi)', 'success');
                     addLog(`✅ Can thiệp ${gameData[currentGame].name} hoàn tất.`, 'success');
                     modal.innerHTML = `
                                 <div class="icon" style="color:#ffa500;"><i class="fas fa-check-circle"></i></div>
